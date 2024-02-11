@@ -1,0 +1,38 @@
+header, footer{
+    margin: 0;
+}
+
+header{
+    background: #ccc;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+
+body{
+    text-align: center;
+    background-image: none;
+}
+img{
+    height: 300px;
+    width: 400px;
+}
+
+
+footer{
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+*{
+    font-family: 'inter', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    
+}
